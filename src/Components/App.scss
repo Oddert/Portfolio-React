@@ -23,11 +23,14 @@
 
 a {
   text-decoration: none;
+  color: #347ac7;
   &:hover {
     text-decoration: none;
+    color: #24527b;
   }
   &:active {
     text-decoration: none;
+    color: #234e76;
   }
   &:visited {
     text-decoration: none;

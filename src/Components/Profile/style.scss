@@ -39,7 +39,41 @@
   }
 }
 .profile__bio {
+  text-align: left;
+  .profile__bio--text {
+    background: #ecf0f1;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 40px 0;
+    font-size: 20px;
+  }
+}
 
+.profile__cv {
+  margin: 20px 0;
+}
+
+.profile__cta {
+  margin: 20px 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .profile__cta__button {
+    background: rgba(0,0,0,0);
+    border: 2px solid #2dcc70;
+    padding: 16px 20px;
+    border-radius: 20px;
+    transition: .2s linear;
+    &:hover {
+      color: #fff;
+      box-shadow: 0 0 30px rgba(39, 174, 97, .3);
+      background-color: #2dcc70;
+    }
+    &:active {
+      background-color: #27ae61;
+    }
+  }
 }
 
 
