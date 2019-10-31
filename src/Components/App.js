@@ -2,6 +2,7 @@ import React from 'react';
 import './App.scss';
 
 import Contact from './Contact'
+import Footer from './Footer'
 import Nav from './Nav'
 import Portfolio from './Portfolio'
 import Profile from './Profile'
@@ -17,7 +18,8 @@ function App() {
       <Profile />
       <Social />
       <Contact />
-      <div style={{ height: '1000px' }}></div>
+      <Footer />
+      {/* <div style={{ height: '1000px' }}></div> */}
     </div>
   );
 }
