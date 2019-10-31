@@ -1,1 +1,53 @@
 
+// Profile
+
+// src/Components/Profile
+#profile {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  .profile--wrapper {
+    width: 75%;
+  }
+}
+
+.profile__title {
+  display: flex;
+  align-items: center;
+  .profile__title--header {
+    flex: 3;
+    padding: 0 20px;
+    h2 {
+      font-size: 30px;
+      font-weight: 400;
+      font-family: helvetica, 'open sans', roboto, 'poiret one';
+      .blink {
+        animation: blink 1s infinite;
+      }
+    }
+  }
+  .profile__title--image {
+    flex: 1;
+    position: relative;
+    padding: 0 20px;
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.2);
+    }
+  }
+}
+.profile__bio {
+
+}
+
+
+
+@keyframes blink {
+  0% { opacity: 1; }
+  49% { opacity: 1; }
+  50% { opacity: 0; }
+  99% { opacity: 0; }
+  100% { opacity: 1; }
+}

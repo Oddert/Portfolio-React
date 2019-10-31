@@ -2,7 +2,7 @@ import React from 'react'
 
 function Bio () {
   return (
-    <div>
+    <div className='profile__bio'>
       <p>I’m also a developer, artist, researcher, cyclist, activist, advocate and Glaswegian-turned-Londoner.</p>
 
       <p>Student BA Product Design (DPS) at Central Saint Martins, UAL.</p>
