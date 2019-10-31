@@ -1,0 +1,20 @@
+
+.contact {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .contact__box {
+
+    p {
+      font-size: 24px;
+      font-weight: 500;
+      text-align: left;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      color: #333;
+      i {
+        margin-right: 20px;
+      }
+    }
+  }
+}

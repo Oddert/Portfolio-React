@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.scss';
 
+import Contact from './Contact'
 import Nav from './Nav'
 import Portfolio from './Portfolio'
 import Profile from './Profile'
@@ -15,6 +16,7 @@ function App() {
       <Portfolio />
       <Profile />
       <Social />
+      <Contact />
       <div style={{ height: '1000px' }}></div>
     </div>
   );
