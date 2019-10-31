@@ -1,0 +1,63 @@
+
+
+
+.social {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  margin: 40px 0;
+  .social__cards {
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    width: 70%;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px rgba(1, 1, 1, 0.1);
+    .social__cards--card {
+      flex: 1;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: .2s linear;
+      &.linkedin {
+        background: #0077B5;
+        color: #fff;
+        &:hover {
+          background: #0077B5;
+        }
+      }
+      &.github {
+        background: #FFFFFF;
+        color: #000;
+        &:hover {
+          background: #fff;
+        }
+      }
+      &.freecodecamp {
+        background: #006400;
+        color: #fff;
+        &:hover {
+          background: #006400;
+        }
+      }
+      &.focused {
+        flex: 3;
+      }
+    }
+  }
+  .social__uri {
+    width: 70%;
+    height: 20px;
+    display: flex;
+    margin: 20px 0;
+    p {
+      text-align: left;
+      color: #bec3c7;
+    }
+  }
+}
