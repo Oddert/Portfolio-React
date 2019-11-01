@@ -46,7 +46,7 @@ class HeaderImage extends React.Component {
       left: '50%',
       transform: `translateX(-50%)`
     }
-    const src = side ? "/img/logo_no_text.png" : "/img/logo_five.png"
+    const src = side ? "./img/logo_no_text.png" : "./img/logo_five.png"
     return (
       <div className="header__cover_image" style={styleA}>
         <a href='#'>
