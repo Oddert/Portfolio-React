@@ -9,6 +9,9 @@
   .profile--wrapper {
     width: 75%;
     margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
 
@@ -16,9 +19,11 @@
   display: flex;
   align-items: center;
   margin: 30px 0;
+  width: 100%;
   .profile__title--header {
     flex: 3;
     padding: 0 20px;
+    text-align: left;
     h2 {
       font-size: 30px;
       font-weight: 400;
@@ -44,6 +49,7 @@
 }
 .profile__bio {
   text-align: left;
+  width: 100%;
   .profile__bio--text {
     background: #ecf0f1;
     padding: 30px;
@@ -88,4 +94,11 @@
   50% { opacity: 0; }
   99% { opacity: 0; }
   100% { opacity: 1; }
+}
+
+@media only screen and (min-width: 1200px) {
+  .profile__bio {
+    text-align: left;
+    width: 70%;
+  }
 }
