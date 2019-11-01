@@ -4,7 +4,7 @@ import './style.scss'
 function StaticTop () {
   return (
     <div className="static_top" style={{ opacity: 0 }}>
-      <img src="/img/logo_five.png" alt="logo" />
+      <img src="./img/logo_five.png" alt="logo" />
     </div>
   )
 }
